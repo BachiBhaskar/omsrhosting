@@ -10,7 +10,7 @@
 }
 .text-right {
     text-align: right;
-    margin-bottom: 54px;
+    margin-bottom: 8px;
 }
 .custom-header{
     font-size: 16px;
@@ -32,6 +32,7 @@
     color: grey;
     padding: 8px 0px;
     font-weight: 300;
+    margin-bottom: 0;
 }
 i.fa.fa-long-arrow-right {
     font-size: 11px;
@@ -51,7 +52,8 @@ card-online-services, i {
 }
 i.fa.fa-map-marker {
     position: absolute;
-    top: 150px;
+    top: 135px;
+    font-size: 20px;
 }
 .email_link {
     color: #0d6efd;
@@ -90,4 +92,25 @@ nav#navbar-example2 {
 }
 .aboutUs_para {
     line-height: 2;
+}
+a.forgot {
+    font-size: 14px;
+    cursor: pointer;
+}
+.form-pad {
+    padding: 20px;
+}
+.form-pad {
+    padding: 0 10px;
+    font-size: 14px;
+}
+.modal-footer button.btn.btn-secondary {
+    font-size: 14px;
+}
+.modal-footer button.btn.btn-primary {
+    font-size: 14px;
+}
+a.forgot.text-right {
+    float: right;
+    margin: 10px 0 0;
 }
